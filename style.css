@@ -43,10 +43,10 @@ body{
     bottom: -80px;
 }
 
-@media screen and (max-width: 360px) {
+@media screen and (max-width: 380px) {
     .background .shape{
-        height: 135px;
-        width: 135px;
+        height: 100px;
+        width: 100px;
         position: absolute;
         border-radius: 50%;
     }
@@ -55,8 +55,8 @@ body{
             #1845ad,
             #23a2f6
         );
-        left: 22px;
-        top: -4px;
+        left: 84px;
+        top: 38px;
     }
     
     .shape:last-child{
@@ -64,8 +64,8 @@ body{
             #ff512f,
             #f09819
         );
-        right: 72px;
-        bottom: 8px;
+        right: 85px;
+        bottom: 45px;
     }
 }
 
@@ -161,10 +161,10 @@ button{
     margin-right: 4px;
 }
 
-@media screen and (max-width: 360px) {
+@media screen and (max-width: 380px) {
     form{
-        height: 430px;
-        width: 250px;
+        height: 370px;
+        width: 195px;
         background-color: rgba(255,255,255,0.13);
         position: absolute;
         transform: translate(-50%, -50%);
@@ -174,25 +174,25 @@ button{
         backdrop-filter: blur(50px);
         border: 2px solid rgba(255,255,255,0.1);
         box-shadow: 0 0 40px rgba(8,7,16,0.6);
-        padding: 50px 35px;
+        padding: 28px 1px 0px 3px;
     }
 
     form h3{
-        font-size: 22px;
+        font-size: 18px;
         font-weight: 500;
         line-height: 12px;
-        margin-top: -15px;
+        margin-top: -10px;
         text-align: center;
     }
 
     .social{
-        margin-top: 22px;
+        margin-top: 20px;
         display: flex;
     }
 
     label{
         display: block;
-        margin-top: 32px;
+        margin-top: 20px;
         font-size: 13px;
         font-weight: 500;
     }
@@ -210,16 +210,16 @@ button{
     }
 
     button{
-        margin-top: 22px;
+        margin-top: 20px;
         width: 100%;
         background-color: #ffffff;
         color: #080710;
         padding: 15px 0;
-        font-size: 17px;
+        font-size: 16px;
         font-weight: 600;
         border-radius: 5px;
         cursor: pointer;
     }
     
-} 
+}
 
